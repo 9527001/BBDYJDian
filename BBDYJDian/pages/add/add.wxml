@@ -1,0 +1,39 @@
+<!--pages/add/add.wxml-->
+<view class='page-body'>
+  <view class="page-section">
+    <view class="weui-cells__title">名字：{{inputValue}}</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" maxlength="10" bindinput="bindKeyInput" placeholder="宝贝名字哦~" />
+      </view>
+    </view>
+  </view>
+
+   <view class="page-section">
+    <view class="weui-cells__title">价格：{{inputValue}}</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" maxlength="10" bindinput="bindKeyInput" placeholder="实付价格~" />
+      </view>
+    </view>
+  </view>
+
+   <view class="page-section">
+    <view class="weui-cells__title">出生时间：{{inputValue}}</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" maxlength="10" bindinput="bindKeyInput" placeholder="就是购买时间喽~" />
+      </view>
+    </view>
+  </view>
+
+   <view class="page-section">
+    <view class="weui-cells__title">死亡时间：{{inputValue}}</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" maxlength="10" bindinput="bindKeyInput" placeholder="送你的宝贝一程吧哦~" />
+      </view>
+    </view>
+  </view>
+  
+</view>
